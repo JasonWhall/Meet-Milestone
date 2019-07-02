@@ -1,7 +1,7 @@
 # Meet-Milestone
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that Checks the Milestone matches the required value from Jira.
-> This expects the Jira version to be valid semver <https://semver.org/>
+> A GitHub App built with [Probot](https://github.com/probot/probot) that checks the milestone matches the minimum semantic version.
+> This expects the Milestone to be valid semver <https://semver.org/>
 
 ## Setup
 
@@ -41,8 +41,8 @@ This will need to contain a file with the following configuration:
 
 ```json
 {
-    atlassianProject: 'ProjectID',
-    baseBranch: 'master',
-    jiraBase: 'https://your-jira.atlassian.net/rest/api/3/'
+  "atlassianProject": "ProjectID",
+  "baseBranch": "master",
+  "jiraBase": "https://your-jira.atlassian.net/rest/api/3/"
 }
 ```
