@@ -10,6 +10,9 @@ module.exports = app => {
       "pull_request.opened",
       "pull_request.edited",
       "pull_request.synchronize",
+      "pull_request.labeled",
+      "pull_request.unlabeled",
+      "pull_request.reopened",
       "issues.milestoned",
       "issues.demilestoned"
     ],
